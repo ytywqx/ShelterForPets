@@ -10,25 +10,27 @@
     <header>
         <div>
              <div class="div-for-logo">
-                <p class="main-text-in-the-logo">Home of Hope</p>
-                <p class="text-in-the-logo">Приют для животных</p>
+                <a href="#">
+                    <p class="main-text-in-the-logo">Home of Hope</p>
+                    <p class="text-in-the-logo">Приют для животных</p>
+                </a>
              </div>
         </div>
 
         <nav>
-            <p>Главная</p>
-            <p>О приюте</p>
-            <p>Питомцы</p>
-            <p>Контакты</p>
+            <a href="#1">Главная</a>
+            <a href="#2">О приюте</a>
+            <a href="#3">Питомцы</a>
+            <a href="#4">Контакты</a>
          </nav>
     </header>
-    <div class="main-screen">
+    <div id="1" class="main-screen">
        
 
         <main>
             <div class="div-with-text-for-main-screen">
                 <p class="big-text-for-main-screen">Найди лучшего <br>друга здесь!</p>
-                <button class="button-in-main-screen">Приютить друга</button>
+                <a href="#3"><button class="button-in-main-screen">Приютить друга</button></a>
              </div>
              <div>
                 <img class="img-in-main-screen" src="картинки/котик.png" alt="картинка котенка">
@@ -36,7 +38,7 @@
         </main>
              
     </div>
-    <div class="about-screen">
+    <div id="2" class="about-screen">
         <p class="big-text-for-about-screen">О нашем приюте</p>
         <div class="all-in-about-screen">
             <img class="img-in-about-screen" src="картинки/щеночек.png" alt="щеночек">
@@ -63,19 +65,23 @@
             </div>
         </div>
     </div>
-    <div class="pets-screen">
+    <div id="3" class="pets-screen">
         <p class="big-text-for-pets-screen">Питомцы</p>
         <div class="all-in-pets-screen">
-            <div class="first-photo-in-pets-screen">
-                <p>Котики</p>
-            </div>
-            <div class="second-photo-in-pets-screen">
-                <p>Собачки</p>
-            </div>
+            <a href="../котики/Cats.html">
+                <div class="first-photo-in-pets-screen">
+                    <p>Котики</p>
+                </div>
+            </a>
+            <a href="../собачки/Dogs.html">
+                <div class="second-photo-in-pets-screen">
+                    <p>Собачки</p>
+                </div>
+            </a>
         </div>        
     </div>
 
-        <footer>
+        <footer id="4">
             <div>
                 <div>
                     <p class="text-for-footer">Контакты</p>
