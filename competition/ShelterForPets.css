@@ -8,29 +8,37 @@ body
 }
 header
 {
-    top: 0;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    background-color: #898E4A;
+    position: fixed;
+    width: 100%;
     justify-content: space-around;
+    opacity: 85%;
 }
-.start-screen
+p
+{
+    font-family: "Rubik", sans-serif;
+}
+.main-screen
 {
     background-color: #898E4A;
+    padding-top: 150px;
 }
 .div-for-logo
 {
     padding: 20px;
+    padding-left: 50px;
 }
 .main-text-in-the-logo
 {
-    font-family: "Rubik", sans-serif;
     color: #FEFAEA;
     font-size: 60px;
     margin: 0;
 }
 .text-in-the-logo
 {
-    font-family: "Rubik", sans-serif;
     color: #FEFAEA;
     font-size: 15px;
     margin: 0;
@@ -39,13 +47,11 @@ nav
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
+    justify-content: flex-end;
+    align-content: flex-end;
 
     p
     {
-        font-family: "Rubik", sans-serif;
         padding: 30px;
         color: #FEFAEA;
         font-size: 25px;
@@ -54,11 +60,9 @@ nav
 }
 .big-text-for-main-screen
 {
-    font-family: "Rubik", sans-serif;
     color: #FEFAEA;
     font-size: 80px;
     margin: 0;
-    appearance: none;
 }
 .button-in-main-screen
 {
@@ -68,25 +72,206 @@ nav
     border: none;
     padding: 20px 50px;
     font-size: 35px;
-}
-.div-with-text-for-main-screne
-{
-    font-family: "Rubik", sans-serif;
-    padding: 40px 110px 0 110px;
-}
-.button-in-main-screen
-{
     margin: 100px 0 40px 0;
+}
+.div-with-text-for-main-screen
+{
+    padding: 20px;
 }
 main
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .img-in-main-screen
 {
-    padding: 0 110px 20px 0;
+    padding: 20px;
     align-items: center;
+}
+.about-screen
+{
+    background-color: #FEFAEA;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-in-about-screen
+{
+    padding: 20px;
+    padding-right: 50px;
+    align-items: center;
+}
+.big-text-for-about-screen
+{
+    color: #593D16;
+    font-size: 80px;
+    margin: 0;
+    padding: 20px 0;
+    float: left;
+}
+.all-in-about-screen
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.all-text-in-about-screen
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+.text-in-about-screen
+{
+    color: #593D16;
+    font-size: 35px;
+
+}
+.ul-in-about-screen
+{
+    color: #593D16;
+    font-size: 35px;
+    font-family: "Rubik", sans-serif;
+}
+.why-screen
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #E9D7BE;
+}
+.big-text-for-why-screen
+{
+    color: #593D16;
+    font-size: 80px;
+    margin: 0;
+    padding: 20px 0;
+}
+.text-in-why-screen
+{
+    color: #593D16;
+    font-size: 30px;
+    width: 70%;
+}
+.all-div-in-why-screen
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    div
+    {
+        background-color: #898E4A;
+        margin: 20px 50px 50px 50px;
+        border-radius: 35px;
+        width: 300px;
+        height: 280px;
+        display: flex;
+        justify-content: center;
+
+        p
+        {
+            color: #FEFAEA;
+            font-size: 25px;
+            align-self: center;
+            text-align: center;
+            margin: 0;
+            padding: 0 20px;
+        }
+    }
+}
+.pets-screen
+{
+    background-color: #FEFAEA;
+
+    .all-in-pets-screen
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+        div
+        {
+            display: flex;
+            background-color: #E9D7BE;
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            align-content: center;
+            flex-direction: column;
+            margin: 20px;
+            margin-bottom: 100px;
+            background-size: contain;
+
+            p
+            {
+                color: #593D16;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 480px;
+            }
+        }
+    }
+    
+}
+.big-text-for-pets-screen
+{
+    color: #593D16;
+    font-size: 80px;
+    margin: 0;
+    padding: 20px 0 50px 0;
+    text-align: center;
+}
+.first-photo-in-pets-screen
+{
+    background: url("картинки/котята.png") no-repeat;
+    background-position: 50% 100px;
+}
+.second-photo-in-pets-screen
+{
+    background: url("картинки/щеночки.png") no-repeat;
+    background-position: 50% 60px;
+}
+footer
+{
+    background-color: #898E4A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.text-for-footer
+{
+    color: #593D16;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div-sponsors-in-footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img
+    {
+        height: 80px;
+        width: auto;
+        padding: 10px;
+    }
+    .img3-footer
+    {
+        height: 50px;
+    }
 }
