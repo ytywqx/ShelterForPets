@@ -16,7 +16,7 @@ header
     position: fixed;
     width: 100%;
     justify-content: space-around;
-    opacity: 85%;
+    opacity: 70%;
 }
 p
 {
@@ -380,49 +380,57 @@ main
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+        text-decoration: none;
 
         @media(max-width: 790px)
         {
             flex-direction: column;
         }
 
-        div
+        a
         {
-            display: flex;
-            background-color: #E9D7BE;
-            width: 500px;
-            height: 500px;
-            border-radius: 50%;
-            align-content: center;
-            flex-direction: column;
-            margin: 20px;
-            margin-bottom: 100px;
-            background-size: contain;
-
-            @media(max-width: 1160px)
+            text-decoration: none;
+            div
             {
-                width: 300px;
-                height: 300px;
-            }
-
-            p
-            {
-                color: #593D16;
-                font-size: 40px;
-                text-align: center;
-                padding-top: 480px;
-
+                display: flex;
+                background-color: #E9D7BE;
+                width: 500px;
+                height: 500px;
+                border-radius: 50%;
+                align-content: center;
+                flex-direction: column;
+                margin: 20px;
+                margin-bottom: 100px;
+                background-size: contain;
+                text-decoration: none;
+    
                 @media(max-width: 1160px)
                 {
-                    padding-top: 280px;
+                    width: 300px;
+                    height: 300px;
                 }
-
-                @media(max-width: 790px)
+    
+                p
                 {
-                    font-size: 25px;
+                    color: #593D16;
+                    font-size: 40px;
+                    text-align: center;
+                    padding-top: 480px;
+                    text-decoration: none;
+    
+                    @media(max-width: 1160px)
+                    {
+                        padding-top: 280px;
+                    }
+    
+                    @media(max-width: 790px)
+                    {
+                        font-size: 25px;
+                    }
                 }
             }
         }
+        
     }
     
 }
