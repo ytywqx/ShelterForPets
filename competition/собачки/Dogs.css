@@ -157,6 +157,9 @@ nav
 {
     background-color: #FEFAEA;
     color: #593D16;
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in, ease, linear;
 }
 .div-with-text-for-main-screen
 {
@@ -253,6 +256,9 @@ main
         div:hover
         {
             border: 10px solid #593D16;
+            transition-property: border;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in, ease, linear;
         }
         }
     }
@@ -282,6 +288,9 @@ main
         {
             color: #E9D7BE;
             background-color: #593D16;
+            transition-property: color, background-color;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in, ease, linear;
         }
     }
 }

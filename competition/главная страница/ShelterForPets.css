@@ -155,8 +155,11 @@ nav
 }
 .button-in-main-screen:hover
 {
-    background-color: #FEFAEA;
+    background-color: #E9D7BE;
     color: #593D16;
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in, ease, linear;
 }
 .div-with-text-for-main-screen
 {
@@ -438,8 +441,9 @@ main
             div:hover
             {
                 border: 5px solid #593D16;
-                margin: 15px;
-                margin-bottom: 100px;
+                transition-property: border;
+                transition-duration: 0.5s;
+                transition-timing-function: ease-in, ease, linear;
             }
         }
         
