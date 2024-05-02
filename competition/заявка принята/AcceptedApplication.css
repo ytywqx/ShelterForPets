@@ -192,11 +192,11 @@ main
     flex-direction: column;
     align-items: center;
 
-    p
+    .big-text
     {
         color: #593D16;
         font-size: 80px;
-        margin: 200px 50px 150px 50px;
+        margin: 200px 50px 50px 50px;
         text-align: center;
     
         @media(max-width: 1160px)
@@ -209,6 +209,25 @@ main
         {
             font-size: 30px;
             margin: 100px 30px 50px 30px;
+        } 
+    }
+    .small-text
+    {
+        color: #593D16;
+        font-size: 60px;
+        margin: 50px 50px 150px 50px;
+        text-align: center;
+    
+        @media(max-width: 1160px)
+        {
+            font-size: 40px;
+            margin: 40px 40px 100px 40px;
+        }
+    
+        @media(max-width: 790px)
+        {
+            font-size: 20px;
+            margin: 30px 30px 50px 30px;
         } 
     }
 }
