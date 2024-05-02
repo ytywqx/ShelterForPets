@@ -26,6 +26,10 @@ a
 {
     font-family: "Rubik", sans-serif;
 }
+label
+{
+    font-family: "Rubik", sans-serif;   
+}
 .main-screen
 {
     background-color: #898E4A;
@@ -181,7 +185,7 @@ main
         height: auto;
     }
 }
-.dogs-screen
+.accepted-application-screen
 {
     background-color: #FEFAEA;
     display: flex;
@@ -191,198 +195,21 @@ main
     p
     {
         color: #593D16;
-        font-size: 60px;
+        font-size: 80px;
+        margin: 200px 50px 150px 50px;
         text-align: center;
-
-        
+    
+        @media(max-width: 1160px)
+        {
+            font-size: 60px;
+            margin: 150px 40px 100px 40px;
+        }
+    
         @media(max-width: 790px)
         {
             font-size: 30px;
-        }
-    }
-    div
-    {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-
-        a
-        {
-            text-decoration: none;
-            
-            div
-        {
-            width: 300px;
-            height: 300px;
-            background-color: #E9D7BE;
-            margin: 30px;
-            margin-bottom: 80px;
-            border: 10px solid #E9D7BE;
-            background-size: 100%;
-            background-repeat: no-repeat;
-            background-position: center;
-
-            @media(max-width: 790px)
-            {
-                width: 180px;
-                height: 180px;
-                margin: 20px;
-                margin-bottom: 50px;
-            }
-            p
-            {
-                color: #593D16;
-                font-size: 40px;
-                padding-top: 280px;
-                
-                @media(max-width: 790px)
-                {
-                    font-size: 20px;
-                    padding-top: 180px;
-                }
-            }
-        }
-        }
-    }
-    a
-    {
-        text-decoration: none;
-
-        button
-        {
-            color: #FEFAEA;
-            background-color: #898E4A;
-            font-size: 35px;
-            border: none;
-            border-radius: 30px;
-            padding: 20px 60px;
-            margin: 100px 0;
-
-            
-            @media(max-width: 790px)
-            {
-                margin: 50px;
-                padding: 10px 40px;
-                font-size: 20px;
-            }
-        }
-    }
-}
-.first-dog-div
-{
-    background: url("картинки/марка.png") no-repeat;
-}
-.second-dog-div
-{
-    background: url("картинки/тим.png") no-repeat;
-}
-.therd-dog-div
-{
-    background: url("картинки/грег.png") no-repeat;
-}
-.fourth-dog-div
-{
-    background: url("картинки/кенни.png") no-repeat;
-}
-.fifth-dog-div
-{
-    background: url("картинки/юки.png") no-repeat;
-}
-.sixth-dog-div
-{
-    background: url("картинки/тори.png") no-repeat;
-}
-.why-screen
-{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: #E9D7BE;
-}
-.big-text-for-why-screen
-{
-    color: #593D16;
-    font-size: 80px;
-    margin: 0;
-    padding: 20px 0;
-
-    @media(max-width: 1160px)
-    {
-        font-size: 60px;
-    }
-
-    @media(max-width: 790px)
-    {
-        font-size: 30px;
-    }
-}
-.text-in-why-screen
-{
-    color: #593D16;
-    font-size: 30px;
-    width: 70%;
-
-    @media(max-width: 1160px)
-    {
-        font-size: 20px;
-    }
-
-    @media(max-width: 790px)
-    {
-        font-size: 15px;
-    }
-}
-.all-div-in-why-screen
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    @media(max-width: 790px)
-    {
-        flex-direction: column;
-    }
-
-    div
-    {
-        background-color: #898E4A;
-        margin: 20px 50px 50px 50px;
-        border-radius: 35px;
-        width: 300px;
-        height: 280px;
-        display: flex;
-        justify-content: center;
-
-        @media(max-width: 1160px)
-        {
-            width: 200px;
-            height: 180px;
-            border-radius: 20px;
-        }
-
-        @media(max-width: 790px)
-        {
-            margin: 10px 0 20px 0;
-        }
-
-        p
-        {
-            color: #FEFAEA;
-            font-size: 25px;
-            align-self: center;
-            text-align: center;
-            margin: 0;
-            padding: 0 20px;
-
-            @media(max-width: 1160px)
-            {
-                font-size: 15px;
-            }
-        }
+            margin: 100px 30px 50px 30px;
+        } 
     }
 }
 footer
