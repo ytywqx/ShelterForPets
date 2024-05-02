@@ -153,6 +153,11 @@ nav
         text-decoration: none;
     }
 }
+.button-in-main-screen:hover
+{
+    background-color: #FEFAEA;
+    color: #593D16;
+}
 .div-with-text-for-main-screen
 {
     padding: 20px;
@@ -428,6 +433,13 @@ main
                         font-size: 25px;
                     }
                 }
+            }
+
+            div:hover
+            {
+                border: 5px solid #593D16;
+                margin: 15px;
+                margin-bottom: 100px;
             }
         }
         
